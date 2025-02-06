@@ -215,24 +215,25 @@ footer h2{
         padding-top: 25px;
     }
     .TechS{
-        width: 90%;
+        width: 75%;
         justify-items: center;
         grid-template-columns: repeat(2,1fr);
-        padding-right: 4px;
+        gap: 20px;
+        column-gap: 0px;
     }
     .SoftS{
-        width: 90%;
+        width: 75%;
         grid-template-columns: repeat(2,1fr);
         padding-right: 3px;
         justify-items: center;
-        gap: 10px;
+        gap: 15px;
+    }
+    .Skill{
+        width: 140px;
+        height: 55px;
     }
     .SoftS .Skill{
         margin: 8px;
-    }
-    .Skill{
-        width: 120px;
-        height: 60px;
     }
     .Box{
         font-size: 11px;
