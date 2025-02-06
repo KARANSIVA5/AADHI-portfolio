@@ -1,0 +1,264 @@
+*{
+    background-color: #a8dadc;
+    padding: 0;
+    margin: 0;
+}
+header{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    width: 100%;
+    position: sticky;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 75px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #1d3557;
+}
+menu li{
+    width: 160px;
+    display: inline-block;
+    background-color: #1d3557;
+}
+a{        
+    text-decoration: none;    
+    color: #a8dadc;
+    background-color: #1d3557;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    background-color: #1d3557;
+}
+.Container{
+    margin-top: 15px;
+    align-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 720px;
+    text-align: right;
+    background-color: #f1faee;
+    color: #1d3557;
+}
+.Grid{
+    width: 40%;
+    height: 35%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    align-content: center;
+    background-color: #f1faee;
+}
+.One{    
+    letter-spacing: -0.5px;
+    background-color: #f1faee;
+}
+.Two{
+    letter-spacing: -0,5px;
+    justify-self: center;
+    background-color: #f1faee;
+} 
+.Two img{
+    background-color: #f1faee;
+}
+.Two p{
+    background-color: #f1faee;
+}
+.One h1{
+    background-color: #f1faee;
+}
+.One p{
+    background-color: #f1faee;
+    font-size: 14.5px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ECon{
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    width: 40%;
+    grid-template-columns: repeat(2,1fr);
+}
+.edu{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+    border-radius: 20px;
+    height: 215px;
+    width: 400px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: white;
+    color: #1d3557;
+}
+.edu h2{
+    background-color: white;
+}
+.edu p{
+    background-color: white;
+}
+.edu img{
+    width: 50%;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    padding: 30px;
+    background-color: white;
+}
+.address{
+    margin-right: 5px;
+}
+.BCA{
+    height: 215px;
+}
+.TechS{
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    padding: 20px;
+    width: 80%;
+    color: #1d3557;
+}
+.Skill{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+    align-content: center;
+    background-color: #f1faee;
+    height: 50px;
+    width: 160px;
+    padding: 5px;
+    border-radius: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Skill h2{
+    background-color: #f1faee;
+    font-size: 21px;
+}
+.Skill h3{
+    background-color: #f1faee;
+    font-size: 16px;
+}
+.SoftS{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 20px;
+    width: 45%;
+    justify-self: center;
+    justify-content: center;
+    color: #1d3557;
+}
+.Ints{
+    justify-items: center;
+    color: #1d3557;
+}
+.Ints ul{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    background-color: #f1faee;
+    width: 90%;
+}
+.Ints li{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #f1faee;
+    border-radius: 15px;
+}
+footer{
+    background-color: #1d3557;
+    color: #a8dadc;
+    height: 170px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+footer h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1d3557;
+    padding: 11px;
+}
+.infor{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1d3557;
+    font-size: 14px;
+    line-height: 20px;
+}
+.infor p{
+    background-color: #1d3557;
+}
+@media(max-width:800px){
+    .Grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        letter-spacing: 1px;
+        line-height:20px;
+        width: 90%;
+        height: 60%;
+    }
+    .One{
+        padding-bottom: 20px;
+    }
+    .Two{
+        padding-top: 25px;
+    }
+    .TechS{
+        width: 90%;
+        grid-template-columns: repeat(2,1fr);
+        padding-right: 4px;
+    }
+    .SoftS{
+        width: 90%;
+        grid-template-columns: repeat(2,1fr);
+        padding-right: 3px;
+        gap: 10px;
+    }
+    .SoftS .Skill{
+        margin: 8px;
+    }
+    .Box{
+        font-size: 11px;
+    }
+    .One h1{
+        font-size: 25px;
+    }
+    .One p{
+        font-size: 15px;
+    }
+    .ECon{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+        padding-left: 20px;
+        justify-content: center;
+        align-content: center;
+    }
+    header{
+        padding-top: 15px;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: #1d3557;
+        height: 110px;
+    }
+    header ul{
+        display: block;
+        background-color: #1d3557;
+    }
+    header li{
+        padding: 1.5px;
+        background-color: #1d3557;
+    }
+}
