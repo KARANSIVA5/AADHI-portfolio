@@ -230,6 +230,10 @@ footer h2{
     .SoftS .Skill{
         margin: 8px;
     }
+    .Skill{
+        width: 120px;
+        height: 60px;
+    }
     .Box{
         font-size: 11px;
     }
