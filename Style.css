@@ -218,7 +218,7 @@ footer h2{
         justify-items: center;
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
-        column-gap: 0px;
+        column-gap: 15px;
     }
     .SoftS{
         width: 75%;
