@@ -223,14 +223,12 @@ footer h2{
     .SoftS{
         width: 75%;
         grid-template-columns: repeat(2,1fr);
-        padding-right: 3px;
         justify-items: center;
         gap: 15px;
     }
     .Skill{
         width: 140px;
         height: 55px;
-        padding: 20px;
     }
     .SoftS .Skill{
         margin: 8px;
