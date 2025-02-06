@@ -221,19 +221,21 @@ footer h2{
         column-gap: 15px;
     }
     .SoftS{
-        width: 75%;
+        background-color: aqua;
+        width: 70%;
         grid-template-columns: repeat(2,1fr);
         justify-items: center;
-        gap: 15px;
+        justify-content: center;
+        gap: 14px;
         padding-left: 0%;
         padding-right: 0%;
     }
     .Skill{
-        width: 140px;
-        height: 50px;
+        width: 120px;
+        height: 60px;
     }
     .SoftS .Skill{
-        margin: 8px;
+        margin: 4px;
     }
     .Box{
         font-size: 11px;
