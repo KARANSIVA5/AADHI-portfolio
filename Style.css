@@ -197,7 +197,7 @@ footer h2{
 .infor p{
     background-color: #1d3557;
 }
-@media(max-width:800px){
+@media(max-width:740px){
     .Grid{
         display: grid;
         grid-template-columns: 1fr;
