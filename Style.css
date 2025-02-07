@@ -278,6 +278,9 @@ footer h2{
         height: 225px;
         border-radius: 100px;
     }
+    .edu{
+        border-radius: 0px;
+    }
     .PMU{
         font-size: 14px;
         width: 80%;
