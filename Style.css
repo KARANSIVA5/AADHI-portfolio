@@ -90,7 +90,7 @@ a:hover{
 }
 .edu{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
-    border-radius: 20px;
+    border-radius: 15px;
     height: 215px;
     width: 400px;
     display: grid;
