@@ -291,6 +291,7 @@ footer h2{
         border-radius: 20px;
         height: 230px;
         width: 100%;
+        padding-left:5px;
     }
     .PMU{
         font-size: 14px;
