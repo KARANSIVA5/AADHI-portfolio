@@ -283,6 +283,10 @@ footer h2{
         padding: 0px;
         margin: 0px;
     }
+    .ECon{
+        justify-content: center;
+        justify-items: center;
+    }
     .edu{
         border-radius: 20px;
         height: 230px;
