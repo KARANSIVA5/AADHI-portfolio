@@ -284,11 +284,12 @@ footer h2{
     .ECon{
         justify-content: center;
         justify-items: center;
+        width: 100%;
     }
     .edu{
         border-radius: 20px;
         height: 230px;
-        width: 100%;
+        width: 95%;
     }
     .PMU{
         font-size: 14px;
