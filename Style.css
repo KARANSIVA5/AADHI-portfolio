@@ -280,8 +280,6 @@ footer h2{
     }
     .BCA{
         border-radius: 25px;
-        padding: 0px;
-        margin: 0px;
     }
     .ECon{
         justify-content: center;
@@ -291,7 +289,7 @@ footer h2{
         border-radius: 20px;
         height: 230px;
         width: 100%;
-        padding-left: 13px;
+        padding-left: 5px;
     }
     .PMU{
         font-size: 14px;
