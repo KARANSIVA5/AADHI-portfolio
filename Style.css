@@ -101,6 +101,9 @@ a:hover{
     background-color: white;
     color: #1d3557;
 }
+.PMU{
+    border-radius: 25px;
+}
 .edu h2{
     background-color: white;
     padding: 20px;
@@ -280,6 +283,7 @@ footer h2{
     }
     .edu{
         border-radius: 20px;
+        height: 230px;
     }
     .PMU{
         font-size: 15px;
