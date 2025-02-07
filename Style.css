@@ -256,10 +256,12 @@ footer h2{
         padding-left: 20px;
         justify-content: center;
         align-content: center;
+        justify-items: center;
     }
     .edu{
         height: 100%;
         width: 95%;
+        border-radius: 20px;
     }
     header{
         padding-top: 15px;
@@ -280,16 +282,6 @@ footer h2{
     }
     .BCA{
         border-radius: 25px;
-    }
-    .ECon{
-        justify-content: center;
-        justify-items: center;
-        width: 100%;
-    }
-    .edu{
-        border-radius: 20px;
-        height: 230px;
-        width: 80%;
     }
     .PMU{
         font-size: 14px;
