@@ -90,7 +90,7 @@ a:hover{
 }
 .edu{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
-    border-radius: 15px;
+    border-radius: 20px;
     height: 215px;
     width: 400px;
     display: grid;
@@ -255,7 +255,7 @@ footer h2{
     }
     .edu{
         height: 100%;
-        width: 100%;
+        width: 95%;
     }
     header{
         padding-top: 15px;
