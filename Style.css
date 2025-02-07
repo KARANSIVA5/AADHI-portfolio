@@ -280,6 +280,8 @@ footer h2{
     }
     .BCA{
         border-radius: 25px;
+        padding: 0px;
+        margin: 0px;
     }
     .edu{
         border-radius: 20px;
