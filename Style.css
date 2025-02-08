@@ -259,8 +259,8 @@ footer h2{
         justify-items: center;
     }
     .edu{
-        height: 98%;
-        width: 90%;
+        height: 100%;
+        width: 200px;
         border-radius: 20px;
     }
     header{
